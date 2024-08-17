@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", 24748410))
+API_HASH = getenv("API_HASH", "c3b3130b386d9acfd889846afa134a67")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7282714112:AAGK26m6PDQaHFxCZqC6e-odqGQ89sGxRGg")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Serkandgn81:81serkan@cluster0.ue7f8.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 960))
 
@@ -22,10 +22,10 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400")
 )
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", ))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002238574089))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", ))
+OWNER_ID = int(getenv("OWNER_ID", 7305205222))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Sohbetikidebir")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Sohbetikidebir")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -72,7 +72,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 3221225472))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BAF5oXoAqhdMrB-GPY16inAVgAtWAzgkSAjS1Is4gNtBBiLAlkJVQK1aFhsTHzCdka6l5pqmICS9tUlJ2VeKGOTl_qZDEC3yWYcfjw2B17GcISBRnVHR7iGnM0PxWMA_jQkOsWVUV06Yw1feUVdJGCQrUVQFh9y2hikgASHj1DVMkQXzHfILxYZ3uMT8IgbTQJgH0StzZ59Z6YqdqmHx1sr9a_0jIU4O3tn1nwebEInMR-AFwfGq2iM-6vCD1oqX8V7q9MeGpMVoWipYFj2QhggIMXB4_L3FUzc4N6lf6zzunwf5pvVuJ-ZZMkpxjI8piXZ09fB6ibuEK6hV2X6_RA2yhssBUAAAAAGL99B5AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -91,21 +91,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", ""
+    "START_IMG_URL", "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/321decfc24b08c837626c.jpg"
+    "PING_IMG_URL", "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/321decfc24b08c837626c.jpg"
+PLAYLIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+STATS_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+TELEGRAM_AUDIO_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+TELEGRAM_VIDEO_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+STREAM_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+SOUNCLOUD_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+YOUTUBE_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+SPOTIFY_ARTIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+SPOTIFY_ALBUM_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
+SPOTIFY_PLAYLIST_IMG_URL = "https://photos.app.goo.gl/RGsiHThq6F87Zkta9i"
 
 
 def time_to_seconds(time):
