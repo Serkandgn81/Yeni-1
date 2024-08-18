@@ -1,9 +1,9 @@
 <h2 align="center">
-    ──「 MYT GRUP BOT 」──
+    ──「 GECE MÜZİK BOT 」──
 </h2>
 
 <p align="center">
-  <img src="https://telegra.ph/file/321decfc24b08c837626c.jpg">
+  <img src="https://photos.app.goo.gl/RGsiHThq6F87Zkta9i">
 </p>
 
 
