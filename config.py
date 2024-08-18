@@ -53,7 +53,7 @@ AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 
 AUTO_LEAVE_ASSISTANT_TIME = int(
 
-    getenv("ASSISTANT_LEAVE_TIME", "3400")
+    getenv("ASSISTANT_LEAVE_TIME", None)
 
 )  # Remember to give value in Seconds
 
